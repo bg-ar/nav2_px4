@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>nav2_px4_bridge</name>
+  <version>0.0.1</version>
+  <description>Bridge Nav2 cmd_vel to PX4 Offboard via XRCE-DDS</description>
+
+  <maintainer email="bg.kang@ariuav.com">enyo</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>px4_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
